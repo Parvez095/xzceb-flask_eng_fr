@@ -3,8 +3,8 @@ from translator import english_to_french, french_to_english
 
 class TestTranslation(unittest.TestCase):
     def test_english_to_french(self):
-        english_text = "Hello"
-        expected_french_text = "Bonjour"
+        english_text = "Thanks"
+        expected_french_text = "Merci"
         translated_text = english_to_french(english_text)
         self.assertEqual(translated_text, expected_french_text)
 
